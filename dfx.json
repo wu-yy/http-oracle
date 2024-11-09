@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "http-oracle-backend": {
+      "main": "src/http-oracle-backend/main.mo",
+      "type": "motoko"
+    },
+    "http-oracle-frontend": {
+      "dependencies": [
+        "http-oracle-backend"
+      ],
+      "source": [
+        "src/http-oracle-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "http-oracle-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
