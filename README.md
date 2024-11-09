@@ -1,4 +1,4 @@
-# On-Chain Oracle Project for api call
+# On-Chain Oracle
 
 Welcome to the **On-Chain Oracle** project! This project provides an oracle service on the Internet Computer that fetches external price data at regular intervals, stores it as a time series, and makes it accessible via query calls. The backend service is built in Motoko, while the frontend is developed with React.
 
